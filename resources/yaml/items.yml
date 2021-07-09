@@ -1,0 +1,989 @@
+##42 item cap
+passiveItems:
+  - name: "Full-Auto Stechkin"
+    itemID: 0
+    flavour: "Real men don't need shoulder stocks."
+    description: "[+4 EXTRA SPREAD | -4 DMG | +6 AS]"
+    cost: 47
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 4
+    creditMod: 0
+    atkBonus: -4
+    atkSpeed: 6
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Call of The Haunted"
+    itemID: 1
+    flavour: "Duh nuh nuh naaa~"
+    description: "[+3 LIFE | CURSED]"
+    cost: 84
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 3
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Full-Auto M14"
+    itemID: 2
+    flavour: "Can't see shit."
+    description: "[+4 EXTRA SPREAD | +1 DMG | +4 AS]"
+    cost: 75
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 4
+    creditMod: 0
+    atkBonus: 1
+    atkSpeed: 4
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Discount Modification Kit"
+    itemID: 3
+    flavour: "Turn your 5 round mag into a 30 round mag!"
+    description: "[+3 AS]"
+    cost: 62
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 3
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Magic Duct Tape"
+    itemID: 4
+    flavour: "Fixes. Fucking. Everything."
+    description: "[+4 LIFE | +1 AS | CURSED]"
+    cost: 124
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 1
+    hpBonus: 4
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Tachyon Core"
+    itemID: 5
+    flavour: "Oh shit. I'm feeling a reference."
+    description: "[+4 AS | +4 MS]"
+    cost: 70
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 4
+    hpBonus: 0
+    spdBonus: 4
+    healBonus: 0
+    blockChance: 0
+
+  - name: "SAA"
+    itemID: 6
+    flavour: "Six shots. More than enough to kill anything that moves."
+    description: "[-20 EXTRA SPREAD | +15 DMG | AS REDUCED TO 1!]"
+    cost: 300
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -20
+    creditMod: 0
+    atkBonus: 15
+    atkSpeed: -1000
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Laser Gun DIY Box"
+    itemID: 7
+    flavour: "Beware of overheating and thicc spreads"
+    description: "[+2 EXTRA SPREAD | +2 DMG | +2 AS]"
+    cost: 67
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 2
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "FakeTech Coolant"
+    itemID: 8
+    flavour: "Shit heats up in less than a second."
+    description: "[+2 EXTRA SPREAD | -1 DMG | +2 AS | +2 MS]"
+    cost: 70
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: -1
+    atkSpeed: 2
+    hpBonus: 0
+    spdBonus: 2
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Toaster"
+    itemID: 9
+    flavour: "ANCIENT TECHNOLOGY."
+    description: "[-1 EXTRA SPREAD | +3 DMG | -3 AS]"
+    cost: 73
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -1
+    creditMod: 0
+    atkBonus: 3
+    atkSpeed: -3
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Electrostatic Zipper"
+    itemID: 10
+    flavour: "Arrivederci."
+    description: "[-1 AS | -2 MS | +3 LIFE | +1 HEAL |CURSED]"
+    cost: 237
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: -1
+    hpBonus: 3
+    spdBonus: -2
+    healBonus: 1
+    blockChance: 0
+
+  - name: "Month Old Coffee"
+    itemID: 11
+    flavour: "Tea is better. Change my mind."
+    description: "[+2 EXTRA SPREAD | -4 MS]"
+    cost: 35
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 4
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Stale Cheetos"
+    itemID: 12
+    flavour: "Snort the dust."
+    description: "[+2 EXTRA SPREAD | -4 AS]"
+    cost: 35
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: -4
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Burnt Chicken"
+    itemID: 13
+    flavour: "Crispy."
+    description: "[+2 EXTRA SPREAD | -4 DMG]"
+    cost: 35
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: -4
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Coffee. Cheetos. Chicken."
+    itemID: 14
+    flavour: "The Ultimate Loot."
+    description: "[+4 LIFE | +12 DMG | +12 AS | +4 MS]"
+    cost: 0
+    cursedState: No
+    isCrafted: Yes
+    craftingMats: [11, 12, 13, 16]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 12
+    atkSpeed: 12
+    hpBonus: 4
+    spdBonus: 4
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Book on Business"
+    itemID: 15
+    flavour: "Money."
+    description: "[x1.5 CREDIT BONUS]"
+    cost: 200
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 1.5
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "FUSION!!"
+    itemID: 16
+    flavour: "A card imbued with Egyptian magicks."
+    description: "[USED IN CRAFTING]"
+    cost: 0
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Minature Ceramic Face"
+    itemID: 17
+    flavour: "With some tape, you can stick this on your forehead."
+    description: "[+2 MS | +1% BLOCK CHANCE | CURSED]"
+    cost: 70
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 2
+    healBonus: 0
+    blockChance: 1
+
+  - name: "Bottled Pandæmonium Flames"
+    itemID: 18
+    flavour: "Turn any room into an oven."
+    description: "[+2 EXTRA SPREAD | +3 DMG | -2 MS | CURSED]"
+    cost: 60
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 3
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: -2
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Vanadium Steel Bar"
+    itemID: 19
+    flavour: "The fact that it does nothing now, shows its resolve."
+    description: "[NO BONUS]"
+    cost: 20
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Polished Magisteel Plate"
+    itemID: 20
+    flavour: "Drains surrounding energy to sustain itself."
+    description: "[-3 MS | +5% BLOCK CHANCE]"
+    cost: 90
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: -3
+    healBonus: 0
+    blockChance: 5
+
+  - name: "A Single Arrow"
+    itemID: 21
+    flavour: "Has a mind of its own"
+    description: "[+1 DMG]"
+    cost: 40
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 1
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Bent Clock Hands"
+    itemID: 22
+    flavour: "Makes for great last resort ammunition."
+    description: "[+1 EXTRA SPREAD | +2 DMG]"
+    cost: 40
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 1
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Sword Pommel"
+    itemID: 23
+    flavour: "Who said swords were melee only?"
+    description: "[+2 DMG]"
+    cost: 40
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Enchanted AI Gem"
+    itemID: 24
+    flavour: "Overflowing with magical energy and hatred."
+    description: "[-1 EXTRA SPREAD | +2 AS]"
+    cost: 55
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -1
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 2
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Divine Bow & Arrow"
+    itemID: 25
+    flavour: "The arrow magically returns on its own."
+    description: "[-10 EXTRA SPREAD | +20 DMG | -10 AS | +2 LIFE | CURSED]"
+    cost: 0
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [18, 19, 21, 23]
+    spreadMod: -10
+    creditMod: 0
+    atkBonus: 20
+    atkSpeed: -10
+    hpBonus: 2
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Ceramic Arms"
+    itemID: 26
+    flavour: "Oddly durable. Full of anger."
+    description: "[+4 DMG | +1% BLOCK CHANCE | CURSED]"
+    cost: 70
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 1
+
+  - name: "Ceramic Heart"
+    itemID: 27
+    flavour: "Quite Cold."
+    description: "[-1 MS | CURSED]"
+    cost: 50
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: -1
+    healBonus: 0
+    blockChance: 0
+
+  - name: "1900s Bike Pump"
+    itemID: 28
+    flavour: "1911 Magazine and rounds not included."
+    description: "[-2 EXTRA SPREAD | -1 DMG | -1 AS]"
+    cost: 45
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -2
+    creditMod: 0
+    atkBonus: -1
+    atkSpeed: -1
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "M950"
+    itemID: 29
+    flavour: "Prone to Jamming"
+    description: "[+2 EXTRA SPREAD | +3 AS]"
+    cost: 55
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 3
+    hpBonus: 0
+    spdBonus: -1
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Banana"
+    itemID: 30
+    flavour: "Fruit."
+    description: "[USED IN CRAFTING]"
+    cost: 0
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Dead Sun"
+    itemID: 31
+    flavour: "It's getting real cold now."
+    description: "[USED IN CRAFTING]"
+    cost: 20
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Lampad Torch"
+    itemID: 32
+    flavour: "Going slightly insane."
+    description: "[+3 EXTRA SPREAD | +10% BLOCK CHANCE]"
+    cost: 160
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 3
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 10
+
+  - name: "Crimson Jar"
+    itemID: 33
+    flavour: "You can see angry faces inside."
+    description: "[+3 EXTRA SPREAD | +3 AS | +10% BLOCK CHANCE | CURSED]"
+    cost: 66
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [16, 31, 32]
+    spreadMod: 3
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 3
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 10
+
+  - name: "'Mollinjir'"
+    itemID: 34
+    flavour: "Losing Brain Cells."
+    description: "[+4 EXTRA SPREAD | +4 AS | -4 DMG]"
+    cost: 50
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 4
+    creditMod: 0
+    atkBonus: -4
+    atkSpeed: 4
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Oureo Cookie"
+    itemID: 35
+    flavour: "How is this a cookie? This is a cube..."
+    description: "[+5 EXTRA SPREAD | +5 AS]"
+    cost: 100
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 5
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 5
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Ceramic Letter"
+    itemID: 36
+    flavour: "You hear tinnitus-inducing chanting coming from within."
+    description: "[+4 LIFE | +5 DMG | +5 EXTRA SPREAD | x2.0 CREDIT BONUS | CURSED]"
+    cost: 2000
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 2.0
+    atkBonus: 5
+    atkSpeed: 0
+    hpBonus: 4
+    spdBonus: 5
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Empty Talismans"
+    itemID: 37
+    flavour: "The elastic around them turns it into a nice paperweight"
+    description: "[-1 EXTRA SPREAD | +1 DMG]"
+    cost: 43
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -1
+    creditMod: 0
+    atkBonus: 1
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "The Holy Bibble"
+    itemID: 38
+    flavour: "A cheap knockoff blessed by a priest"
+    description: "[-1 EXTRA SPREAD | -1 AS]"
+    cost: 30
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -1
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: -1
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Extermination Talismans"
+    itemID: 39
+    flavour: "Exterminate."
+    description: "[-4 EXTRA SPREAD | x3.0 CREDIT BONUS | +6 DMG | -5 AS]"
+    cost: 77
+    cursedState: No
+    isCrafted: Yes
+    craftingMats: [16, 37, 38]
+    spreadMod: -4
+    creditMod: 3.0
+    atkBonus: 6
+    atkSpeed: -5
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Stolen Gatling Gun"
+    itemID: 40
+    flavour: "A GPS is still duct taped to the side."
+    description: "[+4 EXTRA SPREAD | +2 DMG | +6 AS | -3 MS]"
+    cost: 300
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 4
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 6
+    hpBonus: 0
+    spdBonus: -3
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Pages of The Old World"
+    itemID: 41
+    flavour: "Five bucks says these are bootleg."
+    description: "[USED IN CRAFTING | +1 DMG]"
+    cost: 666
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 1
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+#42 item cap
+activeItems:
+  - name: "Missile Mana Factory"
+    itemID: 0
+    flavour: "Ripped from an ancient space hulk."
+    description: "[NO BONUS]"
+    cost: 300
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Divine Shield"
+    itemID: 1
+    flavour: "Traces of rage eminate from the shield."
+    description: "[+2 LIFE | +10% BLOCK CHANCE | CURSED]"
+    cost: 125
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [18, 20, 24, 33]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 2
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 10
+
+  - name: "Divine Spear"
+    itemID: 2
+    flavour: "There's a warning tag attached, written in chicken-scratch."
+    description: "[+2 DMG | CURSED]"
+    cost: 100
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [18, 19, 22, 24]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Divine Sword"
+    itemID: 3
+    flavour: "Complete instructions not included."
+    description: "[+2 EXTRA SPREAD | CURSED]"
+    cost: 90
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [18, 19, 23, 34]
+    spreadMod: 2
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Ouroboros Missile M.F."
+    itemID: 4
+    flavour: "Extreme rapid fire, wide range destruction."
+    description: "[+4 EXTRA SPREAD | -6 DMG | -3 AS]"
+    cost: 125
+    cursedState: No
+    isCrafted: Yes
+    craftingMats: [16, 35, 42]
+    spreadMod: 4
+    creditMod: 0
+    atkBonus: -6
+    atkSpeed: -3
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "LWSG"
+    itemID: 5
+    flavour: "Powered by lemons."
+    description: "[+1 LIFE]"
+    cost: 110
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 1
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Ship Manual"
+    itemID: 6
+    flavour: "README.md"
+    description: "[-12 AS]"
+    cost: 232
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: -12
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Ancient Album"
+    itemID: 7
+    flavour: "Seems to be in perfect condition."
+    description: "[+3 EXTRA SPREAD | +2 DMG | +2 AS | CURSED]"
+    cost: 375
+    cursedState: Yes
+    isCrafted: Yes
+    craftingMats: [4, 17, 26, 33]
+    spreadMod: 3
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 2
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Tachyon Drive"
+    itemID: 8
+    flavour: "Drains power to remain on stand-by."
+    description: "[+1 EXTRA SPREAD | -3 AS | -2 MS]"
+    cost: 78
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 1
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: -3
+    hpBonus: 0
+    spdBonus: -2
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Rogue AI Core"
+    itemID: 9
+    flavour: "Comes wrapped in explosives."
+    description: "[NO BONUS]"
+    cost: 83
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Auto-loader"
+    itemID: 10
+    flavour: "I swear it's not a tentacle."
+    description: "[NO BONUS]"
+    cost: 92
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "MSG"
+    itemID: 11
+    flavour: "Powered by two six-pack milk bottles."
+    description: "[+2 LIFE]"
+    cost: 100
+    cursedState: No
+    isCrafted: Yes
+    craftingMats: [16, 20, 47]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 2
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "HSG"
+    itemID: 12
+    flavour: "Powered by trans-dimensional solanum tuberosums."
+    description: "[+4 LIFE]"
+    cost: 122
+    cursedState: No
+    isCrafted: Yes
+    craftingMats: [16, 47 ,53]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 4
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Scuffed Speakers"
+    itemID: 13
+    flavour: "HOP ON THE BUS AND TURN IT UP TO 11!!!"
+    description: "[-5 MS]"
+    cost: 1337
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: -5
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Arcane Blunderbuss"
+    itemID: 14
+    flavour: "It's actually an old barrel connected to a plasma pump."
+    description: "[NO BONUS]"
+    cost: 100
+    cursedState: No
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: 0
+    creditMod: 0
+    atkBonus: 0
+    atkSpeed: 0
+    hpBonus: 0
+    spdBonus: 0
+    healBonus: 0
+    blockChance: 0
+
+  - name: "Eviction Notice"
+    itemID: 15
+    flavour: "Get out."
+    description: "[-4 EXTRA SPREAD | +2 DMG | +4 AS | +1 MS | CURSED]"
+    cost: 500
+    cursedState: Yes
+    isCrafted: No
+    craftingMats: [-1]
+    spreadMod: -4
+    creditMod: 0
+    atkBonus: 2
+    atkSpeed: 4
+    hpBonus: 0
+    spdBonus: 1
+    healBonus: 0
+    blockChance: 0

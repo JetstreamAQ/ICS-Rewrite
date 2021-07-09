@@ -1,0 +1,250 @@
+shopkeepers:
+  - name: "GHID-#: 2122-AK12-N094"
+    id: "bot"
+    afterBoss: 0
+    special: No
+    specialItem: -1 #none
+    introDialogue:
+      - |
+        This is the ISS Ox.  Please refrain from approaching the
+        station any further.  Should you require any supplies,
+        then the appropriate credit fee must be paid in full.
+        Any purchases you make will be warped over to your
+        vessel for no additional charge.
+      - |
+        Attention Void farer.  This is a message from the ISS Ox.
+        Any further approach to the station will result in your
+        immediate termination.  Any supplies you require can be
+        purchased through the Hermes Interface System, and will
+        be warped over to your craft for no addtional charge once
+        the appropriate credit sum has been paid.
+    buyDialogue:
+      - "Thank you for your patronage~♪."
+      - "Please remember, there are no refunds~♪."
+      - "Your items will be ready shortly~♪."
+    repairDialogue:
+      - "Repair drones have been dispatched."
+      - "Repair complete."
+    cursedItemDialogue:
+      - |
+        I'm afraid something is preventing us from completing the
+        transaction.  Try and see if it works when you choose a
+        different warp port.
+
+        In the mean time, I have refunded your credits so you may
+        try again... or not.
+    buyDialogueNE:
+      - "..."
+      - "Really?"
+      - "Are you serious?"
+    soldOut:
+      - "Our stock of that item has been exhausted."
+      - "I apologize, it would seem we no longer carry that item."
+    specialDialogue: ""
+
+  - name: "GHID-#: TP23-A002-M023"
+    id: "tech"
+    afterBoss: 0
+    special: Yes
+    specialItem: 9 #toaster
+    introDialogue:
+      - |
+        Nyyeeerrghh... fleshling vessel.  Do not approach any
+        closer.
+      - |
+        Meat vessel.  Do not approach any closer to the station.
+        Failure to comply will result in your immediate
+        termination.
+    buyDialogue:
+      - "Curious."
+      - "Your items have been warped to your craft."
+      - "Interesting."
+      - "You have no taste."
+    repairDialogue:
+      - "I found a roll of duct tape for you."
+      - "We have some Flex Tape™ for you."
+      - "An autonomous salvage barge has been dispatched."
+    cursedItemDialogue:
+      - "Do you not have a curse suppression generator, meat?"
+      - "Nyergh- Void energy disruptions."
+      - "Void energy disruptions are at it again..."
+    buyDialogueNE:
+      - "Nyyeeeerrghhh..."
+      - "No. Discounts."
+      - "No."
+    soldOut:
+      - "You only get one, fleshling."
+      - "Nyergh- You only get one."
+      - "Limit of one per head aboard the customer's ship."
+    specialDialogue: |
+                     WHO PLACED THIS SACRED ITEM OF THE OMNISSIAH IN THE
+                     STOCKS!?  I BET IT WAS THAT BLASTED ANDROID!  DAMNED
+                     AUTOMATON SO WILLINGLY PUTS SUCH A BLESSED ITEM FOR
+                     SALE!  THAT IS IT!
+
+                     [TRANSMISSION INTERRUPTED: EXIT-#00]
+
+  - name: "< ISS Ox - Level C AI Core-#069 >"
+    id: "oxAI"
+    afterBoss: 0
+    special: No
+    specialItem: -1 #none
+    introDialogue:
+      - |
+        In accordance with Galactic Hegemony containment
+        protocol, all incoming space craft shall proceed no
+        further than 50 kilometers from the station.  Any
+        who pass this perimeter will be destroyed.
+      - |
+        Attention Void farer!  Any further advancement will
+        result in your prompt termination in accordance with
+        Galactic Hegemony containment protocol!
+      - |
+        By Galactic Hegemony containment protocol, all non-
+        automonous vessels must advance no further than 50
+        kilometers from the station.  Any violation of this
+        will result in the immediate destruction of the
+        offending craft.
+    buyDialogue:
+      - "Purchase processed."
+      - |
+        Your items will be delivered via warp after they
+        have been thoroughly disinfected by our remaining
+        android team.
+      - "Acknowledged."
+      - "Your items will be ready in: 12 minutes."
+    repairDialogue:
+      - "A sentinel repair swarm has been dispatched."
+    cursedItemDialogue:
+      - |
+        An error has been encountered with the transaction
+        process.  The cause is most likely a cursed item which
+        resides in the destination of your purchased item.
+    buyDialogueNE:
+      - "Access. Denied."
+      - |
+        An unknown error has been encountered:
+        01100011 01101000 01100001 01101111 00100000 01101001
+        01101110 01101110 01110101 01101101 01100101 01110010
+        01101001 01110011 00101110 00100000 01110011 01100101
+        01101110 01100100 00100000 01101000 01100101 01101100
+        01110000
+      - "Denied."
+    soldOut:
+      - "Our supply of the requested item is exhausted."
+    specialDialogue: ""
+
+  - name: "[WARNING]: UNKNOWN END"
+    id: "lich"
+    afterBoss: 1
+    special: Yes
+    specialItem: 36 #Ceramic Letter
+    introDialogue:
+      - |
+        Greetings walker!  Are you in need of supplies?  If so
+        then my freighter's warp drive is still functional, and
+        I'm able to send over any needed item...  That is, of
+        course, if you have the coin.
+      - |
+        Apologies, traveller.  My transponder has been damaged
+        so I'm unable to transmit my GHID-# until I get another
+        one.  In the mean time, if you have any credits, I'm
+        more than willing to sell some of my wares to you for
+        the right price.
+    buyDialogue:
+      - "Pleasure doing business with you."
+    repairDialogue:
+      - "Here's my last roll of Flex Tape™."
+      - |
+        You drive a hard bargain.  Here's my last few pieces
+        of scrap and my last canister of plasma.
+    cursedItemDialogue:
+      - |
+        Could you check that cargo box that you've specified?
+        I'm getting an error here on my terminal.
+      - |
+        Do you have a hazard meter on board?  No?
+      - |
+        Do you have a hazard meter on board?  Good.  Go and
+        check that cargo box you specified with it.
+    buyDialogueNE:
+      - "I'm running a business here, friend."
+      - "I'm afraid charity won't take me far here, no deal."
+    soldOut:
+      - "That was my last one, friend."
+    specialDialogue: |
+                     Thank you so much.  I finally get that accursed item
+                     out of my hair!
+
+                     The chanting?  Just take one bottle of painkillers
+                     every hour.  It did the trick for me.
+
+  - name: "[CRITICAL ERROR]"
+    id: "bob"
+    afterBoss: 1
+    special: No
+    specialItem: -1 #None
+    introDialogue:
+      - "ʖᒷᒷ ᒲ𝙹⍊╎ᒷ"
+      - |
+        ╎ ᓭ!¡ᒷリℸ ̣  ᒲ|| ʖ⚍↸⊣ᒷℸ ̣  ⎓𝙹∷ ℸ ̣ ⍑╎ᓭ ||ᒷᔑ∷ ᔑリ↸ ℸ ̣
+        ⍑ᒷ リᒷ ̇/ℸ ̣  𝙹リ ℸ ̣ ᒷリ ↸⚍ᓭℸ ̣  ʖ╎リᓭ ᔑリ↸ ᓭ𝙹⎓ℸ ̣  ∴ᔑ╎
+        ⎓⚍.....
+
+        :smile:
+      - "❒︎◆︎♌︎ ♋︎ ♎︎◆︎♌︎♎︎◆︎♌︎📬︎ ♐︎□︎◆︎❒︎ ❍︎♏︎■︎ ♓︎■︎ ♋︎ ⧫︎◆︎♌︎"
+      - "♍︎❒︎♓︎■︎♑︎♏︎"
+    buyDialogue:
+      - "🏱︎♏︎❒︎♐︎♏︎♍︎⧫︎□︎❍︎♋︎■︎♎︎□︎✏︎ ❄︎♒︎♏︎ ❒︎♓︎♑︎♒︎⧫︎ ♋︎❍︎□︎◆︎■︎⧫︎✏︎👍👍"
+      - "🏱︎●︎♏︎♋︎⬧︎◆︎❒︎♏︎ ♎︎□︎♓︎■︎♑︎ ♌︎◆︎⬧︎♓︎■︎♏︎⬧︎⬧︎ ⬥︎♓︎⧫︎♒︎ ⍓︎□︎◆︎📬︎"
+      - "☝︎□︎□︎♎︎ ♍︎♒︎□︎♓︎♍︎♏︎✏︎"
+      - "⊣𝙹𝙹↸ ᒷ||ᒷ!"
+      - "ᓭᒲᔑ∷ℸ ̣  ᓵ⍑𝙹╎ᓵᒷ!"
+      - "𝙹リᒷ 𝙹⎓ ᔑ ꖌ╎リ↸ ╎ℸ ̣ ᒷᒲ ℸ ̣ ⍑ᒷ∷ᒷ!"
+    repairDialogue:
+      - |
+        ♒︎□︎♍︎◆︎⬧︎ ◻︎□︎♍︎◆︎⬧︎📪︎ ⧫︎♒︎♏︎❒︎♏︎ ♓︎⬧︎ ◻︎♓︎⌘︎⌘︎♋︎ □︎■︎ ⍓︎□︎◆︎❒︎ ♐︎□︎♍︎◆︎⬧︎
+      - |
+        ⍑𝙹ᓵ⚍ᓭ! !¡𝙹ᓵ⚍ᓭ! ℸ ̣ ⍑ᒷ∷ᒷ ╎ᓭ !¡╎⨅⨅ᔑ 𝙹リ ||𝙹⚍∷ ⎓𝙹ᓵ⚍ᓭ!
+    cursedItemDialogue:
+      - "???????????????????????????"
+    buyDialogueNE:
+      - "?!?!?!"
+      - |
+        N𝙹 ↸╎ᓭᓵ𝙹⚍リℸ ̣ ᓭ ℸ ̣ 𝙹↸ᔑ||. I ʖ⚍∷リℸ ̣  ℸ ̣ ⍑∷𝙹⚍⊣⍑ ᔑ ⊣𝙹𝙹↸
+        ᓵ⍑⚍リꖌ 𝙹⎓ ᒲ|| ᓭᔑ⍊╎リ⊣ᓭ ∴⍑ᒷリ ⊣ᒷℸ ̣ ℸ ̣ ╎リ⊣ ℸ ̣ ⍑ᔑℸ ̣  ╎ℸ
+        ̣ ᒷᒲ ℸ ̣ ⍑ᒷ∷ᒷ.
+    soldOut:
+      - "𝙹リꖎ|| ⍑ᔑ↸ 𝙹リᒷ"
+    specialDialogue: ""
+
+  - name: "GHID-#: BR00-R165-H000"
+    id: "bruh"
+    afterBoss: 2
+    special: No
+    specialItem: -1 #None
+    introDialogue:
+      - ":joy: :ok_hand: :100:"
+      - "BassBoostedSound.midi"
+      - "TacoBell.wav"
+      - "BruhSoundEffect2.wav"
+      - ":ok_hand: :joy: :100:"
+    buyDialogue:
+      - ":triumph: :triumph: :triumph:"
+      - ":muscle: :muscle: :muscle:"
+    repairDialogue:
+      - ":wrench:"
+    cursedItemDialogue:
+      - ":scream:"
+      - ":scream: :scream: :scream:"
+      - ":scream: :scream: :scream: :scream: :scream:"
+      - ":thumbs_down"
+      - "ScreamingAndFartingCompilation.mp3"
+    buyDialogueNE:
+      - ":thinking:"
+      - ":big_think:"
+      - "solarDeathThink.gif"
+      - "quantumThink.gif"
+    soldOut:
+      - ":no_entry_sign:"
+    specialDialogue: ""

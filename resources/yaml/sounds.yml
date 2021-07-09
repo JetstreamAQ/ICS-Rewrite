@@ -1,0 +1,164 @@
+sounds:
+  #BGM START
+  - soundTag: "main"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/main.wav"
+
+  - soundTag: "shop0"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/shop0.wav"
+
+  - soundTag: "shop1"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/shop1.wav"
+
+  - soundTag: "shop2"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/shop2.wav"
+
+  - soundTag: "JunkoStage"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/junkoStage.wav"
+
+  - soundTag: "JunkoTheme"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/junkoTheme.wav"
+
+  - soundTag: "ATATATATATATStage"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/ATATATATATATStage.wav"
+
+  - soundTag: "ATATATATATATTheme"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/ATATATATATATTheme.wav"
+
+  - soundTag: "BootlegStage"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/BootlegStage.wav"
+
+  - soundTag: "BootlegTheme"
+    isBGM: Yes
+    soundURL: "soundfiles/bgm/BootlegTheme.wav"
+  #BGM END
+
+  #SFX START
+  - soundTag: "speak"
+    isBGM: No
+    soundURL: "soundfiles/fx/speak.wav"
+
+  - soundTag: "magicShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/boss/magicShot.wav"
+
+  - soundTag: "spiritDeath"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/spiritDeath.wav"
+
+  - soundTag: "bootlegMinionDeath"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/bootlegMinionDeath.wav"
+
+  - soundTag: "JunkoDeath"
+    isBGM: No
+    soundURL: "soundfiles/fx/boss/junkoDeath.wav"
+
+  - soundTag: "gearShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/gearFire.wav"
+
+  - soundTag: "bootlegMinionShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/bootlegMinionShot.wav"
+
+  - soundTag: "bootlegMinionWarp"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/bootlegMinionWarp.wav"
+
+  - soundTag: "bootlegLaser"
+    isBGM: No
+    soundURL: "soundfiles/fx/enemy/bootlegLaser.wav"
+
+  - soundTag: "JETSTRM495Shot"
+    isBGM: No
+    soundURL: "soundfiles/fx/player/jetstreamShot.wav"
+
+  - soundTag: "WightShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/player/wightShot.wav"
+
+  - soundTag: "TesterShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/player/testerShot.wav"
+
+  - soundTag: "explosion"
+    isBGM: No
+    soundURL: "soundfiles/fx/explosion.wav"
+
+  - soundTag: "missileLaunch"
+    isBGM: No
+    soundURL: "soundfiles/fx/rocketLaunch.wav"
+
+  - soundTag: "heavyShot"
+    isBGM: No
+    soundURL: "soundfiles/fx/heavyShot.wav"
+
+  - soundTag: "shieldActivate"
+    isBGM: No
+    soundURL: "soundfiles/fx/shieldActivate.wav"
+
+  - soundTag: "spear"
+    isBGM: No
+    soundURL: "soundfiles/fx/spear.wav"
+
+  - soundTag: "sword"
+    isBGM: No
+    soundURL: "soundfiles/fx/sword.wav"
+
+  - soundTag: "klaxon"
+    isBGM: No
+    soundURL: "soundfiles/fx/klaxon.wav"
+
+  - soundTag: "overdrive"
+    isBGM: No
+    soundURL: "soundfiles/fx/overdrive.wav"
+
+  - soundTag: "album"
+    isBGM: No
+    soundURL: "soundfiles/fx/album.wav"
+
+  - soundTag: "tachyonDrive1"
+    isBGM: No
+    soundURL: "soundfiles/fx/tachyonDrive1.wav"
+
+  - soundTag: "tachyonDrive2"
+    isBGM: No
+    soundURL: "soundfiles/fx/tachyonDrive2.wav"
+
+  - soundTag: "calculating"
+    isBGM: No
+    soundURL: "soundfiles/fx/calculating.wav"
+
+  - soundTag: "autoloader"
+    isBGM: No
+    soundURL: "soundfiles/fx/autoloader.wav"
+
+  - soundTag: "speakers"
+    isBGM: No
+    soundURL: "soundfiles/fx/speakers.wav"
+
+  - soundTag: "pendulum"
+    isBGM: No
+    soundURL: "soundfiles/fx/pendulum.wav"
+
+  - soundTag: "eviction"
+    isBGM: No
+    soundURL: "soundfiles/fx/eviction.wav"
+
+  - soundTag: "hit"
+    isBGM: No
+    soundURL: "soundfiles/fx/hitsound.wav"
+
+  - soundTag: "playerHit"
+    isBGM: No
+    soundURL: "soundfiles/fx/player/hit.wav"
+  #SFX END

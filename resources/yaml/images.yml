@@ -1,0 +1,378 @@
+images:
+  - imageTag: "missing"
+    imageURL: "images/itemImgs/misc/missing.png"
+
+  - imageTag: "00"
+    imageURL: "images/itemImgs/passive/stechkin.png"
+
+  - imageTag: "01"
+    imageURL: "images/itemImgs/passive/callofthehaunted.png"
+
+  - imageTag: "02"
+    imageURL: "images/itemImgs/passive/m14.png"
+
+  - imageTag: "03"
+    imageURL: "images/itemImgs/passive/modkit.png"
+
+  - imageTag: "04"
+    imageURL: "images/itemImgs/passive/ducttape.png"
+
+  - imageTag: "05"
+    imageURL: "images/itemImgs/passive/tachyon.png"
+
+  - imageTag: "06"
+    imageURL: "images/itemImgs/passive/saa.png"
+
+  - imageTag: "07"
+    imageURL: "images/itemImgs/passive/diy.png"
+
+  - imageTag: "08"
+    imageURL: "images/itemImgs/passive/faketechcoolant.png"
+
+  - imageTag: "09"
+    imageURL: "images/itemImgs/passive/toaster.png"
+
+  - imageTag: "010"
+    imageURL: "images/itemImgs/passive/electrostaticzipper.png"
+
+  - imageTag: "011"
+    imageURL: "images/itemImgs/passive/montholdcoffee.png"
+
+  - imageTag: "012"
+    imageURL: "images/itemImgs/passive/rottencheetos.png"
+
+  - imageTag: "013"
+    imageURL: "images/itemImgs/passive/burntchicken.png"
+
+  - imageTag: "014"
+    imageURL: "images/itemImgs/passive/coffeecheetoschicken.png"
+
+  - imageTag: "015"
+    imageURL: "images/itemImgs/passive/bookonbusiness.png"
+
+  - imageTag: "016"
+    imageURL: "images/itemImgs/passive/fusion.png"
+
+  - imageTag: "017"
+    imageURL: "images/itemImgs/passive/ceramicface.png"
+
+  - imageTag: "018"
+    imageURL: "images/itemImgs/passive/pandaemoniumflames.png"
+
+  - imageTag: "019"
+    imageURL: "images/itemImgs/passive/vanadiumsteelbar.png"
+
+  - imageTag: "020"
+    imageURL: "images/itemImgs/passive/polishedmagisteelplate.png"
+
+  - imageTag: "021"
+    imageURL: "images/itemImgs/passive/singlearrow.png"
+
+  - imageTag: "022"
+    imageURL: "images/itemImgs/passive/bentclockhands.png"
+
+  - imageTag: "023"
+    imageURL: "images/itemImgs/passive/swordpommel.png"
+
+  - imageTag: "024"
+    imageURL: "images/itemImgs/passive/enchantedaigem.png"
+
+  - imageTag: "025"
+    imageURL: "images/itemImgs/passive/divinebowarrow.png"
+
+  - imageTag: "026"
+    imageURL: "images/itemImgs/passive/ceramicarms.png"
+
+  - imageTag: "027"
+    imageURL: "images/itemImgs/passive/ceramicheart.png"
+
+  - imageTag: "028"
+    imageURL: "images/itemImgs/passive/1900sbikepump.png"
+
+  - imageTag: "029"
+    imageURL: "images/itemImgs/passive/m950.png"
+
+  - imageTag: "030"
+    imageURL: "images/itemImgs/passive/banana.png"
+
+  - imageTag: "031"
+    imageURL: "images/itemImgs/passive/deadsun.png"
+
+  - imageTag: "032"
+    imageURL: "images/itemImgs/passive/lampadtorch.png"
+
+  - imageTag: "033"
+    imageURL: "images/itemImgs/passive/crimsonjar.png"
+
+  - imageTag: "034"
+    imageURL: "images/itemImgs/passive/mollinjir.png"
+
+  - imageTag: "035"
+    imageURL: "images/itemImgs/passive/oureocookie.png"
+
+  - imageTag: "036"
+    imageURL: "images/itemImgs/passive/ceramicletter.png"
+
+  - imageTag: "037"
+    imageURL: "images/itemImgs/passive/emptytalismans.png"
+
+  - imageTag: "038"
+    imageURL: "images/itemImgs/passive/holybibble.png"
+
+  - imageTag: "039"
+    imageURL: "images/itemImgs/passive/exterminationtalisman.png"
+
+  - imageTag: "040"
+    imageURL: "images/itemImgs/passive/gatlinggun.png"
+
+  - imageTag: "041"
+    imageURL: "images/itemImgs/passive/pageoftheoldworld.png"
+
+  - imageTag: "A0"
+    imageURL: "images/itemImgs/active/ManaFactory.png"
+
+  - imageTag: "A1"
+    imageURL: "images/itemImgs/active/Shield.png"
+
+  - imageTag: "A2"
+    imageURL: "images/itemImgs/active/Spear.png"
+
+  - imageTag: "A3"
+    imageURL: "images/itemImgs/active/Sword.png"
+
+  - imageTag: "A4"
+    imageURL: "images/itemImgs/active/Ouroboros.png"
+
+  - imageTag: "A5"
+    imageURL: "images/itemImgs/active/LWSG.png"
+
+  - imageTag: "A6"
+    imageURL: "images/itemImgs/active/ShipManual.png"
+
+  - imageTag: "A7"
+    imageURL: "images/itemImgs/active/Record.png"
+
+  - imageTag: "A8"
+    imageURL: "images/itemImgs/active/TachyonDrive.png"
+
+  - imageTag: "A9"
+    imageURL: "images/itemImgs/active/AICore.png"
+
+  - imageTag: "A10"
+    imageURL: "images/itemImgs/active/AutoLoader.png"
+
+  - imageTag: "A11"
+    imageURL: "images/itemImgs/active/MSG.png"
+
+  - imageTag: "A12"
+    imageURL: "images/itemImgs/active/HSG.png"
+
+  - imageTag: "A13"
+    imageURL: "images/itemImgs/active/Speakers.png"
+
+  - imageTag: "A14"
+    imageURL: "images/itemImgs/active/Blunderbuss.png"
+
+  - imageTag: "A15"
+    imageURL: "images/itemImgs/active/Eviction.png"
+
+  - imageTag: "repair"
+    imageURL: "images/itemImgs/misc/repair.png"
+
+  - imageTag: "ak12"
+    imageURL: "images/hud/shop/ak12.png"
+
+  - imageTag: "techPriest"
+    imageURL: "images/hud/shop/techPriest.png"
+
+  - imageTag: "oxAI"
+    imageURL: "images/hud/shop/oxAI.png"
+
+  - imageTag: "lich"
+    imageURL: "images/hud/shop/lich.png"
+
+  - imageTag: "bob"
+    imageURL: "images/hud/shop/bob.png"
+
+  - imageTag: "bruh"
+    imageURL: "images/hud/shop/bruh.png"
+
+  - imageTag: "star"
+    imageURL: "images/background/star.png"
+
+  - imageTag: "playerHealthBack"
+    imageURL: "images/hud/playerHealthBack.png"
+
+  - imageTag: "playerHealthOverlay"
+    imageURL: "images/hud/playerHealthOverlay.png"
+
+  - imageTag: "bossHealthBack"
+    imageURL: "images/hud/bossHealthBack.png"
+
+  - imageTag: "bossHealthOverlay"
+    imageURL: "images/hud/bossHealthOverlay.png"
+
+  - imageTag: "noMovement"
+    imageURL: "images/hud/noMovement.png"
+
+  - imageTag: "block"
+    imageURL: "images/hud/block.png"
+
+  - imageTag: "JETSTRM495Avatar"
+    imageURL: "images/plrChar/avatars/JETSTRM495Avatar.png"
+
+  - imageTag: "JETSTRM495"
+    imageURL: "images/plrChar/jetstrm495.png"
+
+  - imageTag: "JETSTRM495Bullet"
+    imageURL: "images/bullet/jetstrm495Bullet.png"
+
+  - imageTag: "WightAvatar"
+    imageURL: "images/plrChar/avatars/WightAvatar.png"
+
+  - imageTag: "Wight"
+    imageURL: "images/plrChar/wight.png"
+
+  - imageTag: "WightBullet"
+    imageURL: "images/bullet/wightBullet.png"
+
+  - imageTag: "BootlegAvatar"
+    imageURL: "images/plrChar/avatars/BootlegAvatar.png"
+
+  - imageTag: "Bootleg"
+    imageURL: "images/plrChar/bootleg.png"
+
+  - imageTag: "BootlegBullet"
+    imageURL: "images/bullet/bootlegBullet.png"
+
+  - imageTag: "AnomalyAvatar"
+    imageURL: "images/plrChar/avatars/AnomalyAvatar.png"
+
+  - imageTag: "Anomaly"
+    imageURL: "images/plrChar/anomaly.png"
+
+  - imageTag: "AnomalyBullet"
+    imageURL: "images/bullet/anomalyBullet.png"
+
+  - imageTag: "TesterAvatar"
+    imageURL: "images/plrChar/avatars/AnomalyAvatar.png"
+
+  - imageTag: "Tester"
+    imageURL: "images/plrChar/tester.png"
+
+  - imageTag: "TesterBullet"
+    imageURL: "images/bullet/anomalyBullet.png"
+
+  - imageTag: "spiritSprite"
+    imageURL: "images/enemy/spirit.png"
+
+  - imageTag: "junko"
+    imageURL: "images/boss/junkoSheet.png"
+
+  - imageTag: "gearSprite"
+    imageURL: "images/enemy/gearSpiritFront.png"
+
+  - imageTag: "abominationBody"
+    imageURL: "images/boss/abominationBody.png"
+
+  - imageTag: "abominationLegs"
+    imageURL: "images/boss/abominationLegs.png"
+
+  - imageTag: "bootlegMinion"
+    imageURL: "images/enemy/bootlegMinion.png"
+
+  - imageTag: "bootleg"
+    imageURL: "images/boss/bootleg.png"
+
+  - imageTag: "bootlegBack"
+    imageURL: "images/boss/bootlegBack.png"
+
+  - imageTag: "orangeRound"
+    imageURL: "images/bullet/orangeRound.png"
+
+  - imageTag: "yellowRound"
+    imageURL: "images/bullet/yellowRound.png"
+
+  - imageTag: "blueRound"
+    imageURL: "images/bullet/blueRound.png"
+
+  - imageTag: "redRound"
+    imageURL: "images/bullet/redRound.png"
+
+  - imageTag: "greyRound"
+    imageURL: "images/bullet/greyRound.png"
+
+  - imageTag: "purpleRound"
+    imageURL: "images/bullet/purpleRound.png"
+
+  - imageTag: "crimsonRound"
+    imageURL: "images/bullet/crimsonRound.png"
+
+  - imageTag: "pinkLong"
+    imageURL: "images/bullet/pinkLong.png"
+
+  - imageTag: "bootlegLong"
+    imageURL: "images/bullet/bootlegLong.png"
+
+  - imageTag: "gearRound"
+    imageURL: "images/bullet/gearBullet.png"
+
+  - imageTag: "spear"
+    imageURL: "images/bullet/spear.png"
+
+  - imageTag: "cut"
+    imageURL: "images/bullet/cut.png"
+
+  - imageTag: "bruh0"
+    imageURL: "images/bullet/bruhBullet0.png"
+
+  - imageTag: "bruh1"
+    imageURL: "images/bullet/bruhBullet1.png"
+
+  - imageTag: "bruh2"
+    imageURL: "images/bullet/bruhBullet2.png"
+
+  - imageTag: "person"
+    imageURL: "images/bullet/person.png"
+
+  - imageTag: "missile"
+    imageURL: "images/bullet/missile.png"
+
+  - imageTag: "roundExplosion"
+    imageURL: "images/explosions/round_explosion.png"
+
+  - imageTag: "vortexExplosion"
+    imageURL: "images/explosions/round_vortex.png"
+
+  - imageTag: "bloodExplosion"
+    imageURL: "images/explosions/round_blood_vortex.png"
+
+  - imageTag: "verticalExplosion"
+    imageURL: "images/explosions/vertical_explosion.png"
+
+  - imageTag: "verticalModExplosion"
+    imageURL: "images/explosions/mod_vertical_explosion.png"
+
+  - imageTag: "verticalSmallExplosion"
+    imageURL: "images/explosions/vertical_explosion_small.png"
+
+  - imageTag: "explosion"
+    imageURL: "images/explosions/X_plosion.png"
+
+  - imageTag: "mediumShine"
+    imageURL: "images/explosions/ppeldo/MediumStar.png"
+
+  - imageTag: "fireBurst"
+    imageURL: "images/explosions/ppeldo/fireBurst.png"
+
+  - imageTag: "ppeldoSmallExplosion"
+    imageURL: "images/explosions/ppeldo/explosion2.png"
+
+  - imageTag: "dissipate"
+    imageURL: "images/explosions/dissipate.png"
+
+  - imageTag: "mediumEnergy"
+    imageURL: "images/explosions/ppeldo/MediumEnergy.png"
+
+  - imageTag: "dispel"
+    imageURL: "images/explosions/ppeldo/MagicBarrier_64x64.png"

@@ -1,0 +1,58 @@
+plrChars:
+  - name: "JETSTRM495"
+    flavor: "A Salvaged direlect, repurposed by pirates for void travel."
+    desc: |
+          Designed over 200 years ago, this fighter was originally created as a bomber
+          which could operate both in and out of an atmospheric environment.  Equipped
+          with minature C-grade mana factories, set to produce about 50 dumb Storm
+          missiles per second and hold around 500 in storage.  To complement this,
+          the bomber has been fitted with, what are now, E-grade thrusters and engines
+          -- allowing it to travel just a little under the speed of light.
+
+          Now replaced with the introduction of Wight fighters, this specific obsolete
+          bomber has had it's mana factories removed and replaced with auxillary fuel
+          tanks.  In lieu of this, it now sports a single fighter-grade Desperado
+          Autocannon, turning it into barely passable void suitable transport.
+    deathType: 0
+    health: 3
+    spreadMod: 3
+    creditMod: 1.0
+    damage: 6         #def 6
+    attackSpeed: 14    #def 14
+    movementSpeed: 6
+    blockChance: 0    #def 0
+
+  - name: "Wight"
+    flavor: "The standard Galactic Hegemony void travel capable fighter."
+    desc: |
+          With the discovery of what has been dubbed: the Void; about 50 years ago,
+          the Galactic Hegemony found that their JETSTRM495 fighter-bombers and
+          Saber interceptors were outmatched by the confusing entities found
+          within.  To maintain their authority over all known space, the Galactic
+          Hegemony soon cooked up the Wight SSF-004; arming it with -- what was,
+          at the time -- Alter Corporation's revolutionary plasma repeaters,
+          coupled with solid state fuel pellets for extended independent flight.
+
+          The Wight SSF-004 has since been the go-to small craft fighter for many
+          captains of Atlas carriers within the Hegemony Navy's Void division.
+    deathType: 1
+    health: 4
+    spreadMod: 4
+    creditMod: 1.1
+    damage: 6         #def 6
+    attackSpeed: 16   #def 16
+    movementSpeed: 5
+    blockChance: 5
+
+  - name: "Tester"
+    flavor: "CIWS go BRRRRR"
+    desc: |
+          Exists for testing purposes.
+    deathType: 1
+    health: 1
+    spreadMod: 8
+    creditMod: 10.0
+    damage: 10
+    attackSpeed: 25
+    movementSpeed: 5
+    blockChance: 100
