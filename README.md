@@ -16,6 +16,14 @@ Game assets have been redacted since most of them are placeholders.  Only a hand
 * Z - Shoot (game) and select (menu and shop)
 * X - Activate item effect (game); exit shop (game) and return (menu)
 
+## Demo Videos
+
+Project as it was when submitted for the ICS final (Recorded on low-end PC):
+https://www.youtube.com/watch?v=etXuU62qonA
+
+Project now (Using Placeholder Assets):
+https://www.youtube.com/watch?v=iH0YtjXuUBg
+
 ## Preview (Placeholder Assets)
 
 ![img1](imgs/img1.png)
